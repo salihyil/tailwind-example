@@ -1,5 +1,6 @@
 const fontFamily = require('./src/theme/fontFamily');
 const colors = require('./src/theme/colors');
+const spacing = require('./src/theme/spacing');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -16,6 +17,7 @@ module.exports = {
     extend: {
       fontFamily,
       colors,
+      spacing
     },
   },
   plugins: [],
